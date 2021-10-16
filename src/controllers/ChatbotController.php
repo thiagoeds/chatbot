@@ -12,4 +12,10 @@ class ChatbotController extends Controller
     {
         echo json_encode(["Hello" => 'World']);
     }
+
+    public function actions()
+    {
+
+        $this->request();
+    }
 }

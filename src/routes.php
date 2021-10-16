@@ -7,4 +7,4 @@ $router = new Router();
 $router->get('/', 'HomeController@index');
 $router->get('/sobre/{nome}', 'HomeController@sobreP');
 $router->get('/sobre', 'HomeController@sobre');
-$router->get('/actions', 'ChatbotController@index');
+$router->get('/actions', 'ChatbotController@actions');
